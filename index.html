@@ -1,0 +1,6 @@
+ WebDriverWait waqita = new WebDriverWait(driver, TimeSpan.FromSeconds(60));
+
+                    waqita.Until(driver => driver.FindElement(By.XPath("//span[text()='AUDIENCE']")));
+
+                    timer31.Start();
+                    timer30.Stop();
